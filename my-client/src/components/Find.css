@@ -1,0 +1,38 @@
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+form {
+  background-color: #f4f4f4;
+  padding: 25px;
+  border-radius: 12px;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin: 12px 0;
+  border: 1px solid #ccc;
+  background-color: #fff8c4;
+  border-radius: 6px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #d4aa00;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.result {
+  margin-top: 20px;
+  background-color: #e6e6e6;
+  padding: 15px;
+  border-radius: 8px;
+}
