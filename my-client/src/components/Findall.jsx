@@ -7,7 +7,7 @@ export function Findall() {
     async function findAllHandler(e){
         e.preventDefault();
         try{
-            const response = await axios.get('http://localhost:3002/api/employees');
+            const response = await axios.get('https://janvi-backend.onrender.com/api/employees');
             setEmployees(response.data);
         }
         catch (err){
