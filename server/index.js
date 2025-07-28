@@ -8,6 +8,8 @@ const cors = require('cors');
 app.use(express.json());
 app.use(cors());
 
+const port= "https://frontend-2y92.onrender.com";
+
 async function connectDB()
 {
     try{
@@ -127,6 +129,6 @@ app.put('/api/employees/:id',async(req,res)=>{
 
 
 // Start server 
-app.listen(3002,()=>{
+app.listen(port,()=>{
     console.log('Server running on http://localhost:3002');
 });
