@@ -12,7 +12,7 @@ export function Find(){
        
         try
         {
-     const response = await axios.get(`http://localhost:3002/api/employess/${id}`);
+     const response = await axios.get(`https://janvi-backend.onrender.com/api/employess/${id}`);
       setEmployee(response.data);
         }
         catch(err)
